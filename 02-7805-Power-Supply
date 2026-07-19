@@ -1,0 +1,125 @@
+# 🔋 7805 Voltage Regulator Power Supply PCB
+
+![KiCad](https://img.shields.io/badge/KiCad-9-blue)
+![PCB](https://img.shields.io/badge/PCB-Design-green)
+![Power Supply](https://img.shields.io/badge/7805-Voltage%20Regulator-orange)
+
+## 📌 Project Overview
+
+This project presents a compact **5V regulated power supply PCB** designed using **KiCad**. The circuit is based on the **7805 voltage regulator IC**, which converts an unregulated DC input into a stable **5V DC output** suitable for powering Arduino boards, sensors, microcontrollers, and embedded systems.
+
+---
+
+## ✨ Features
+
+- Stable 5V DC output
+- Based on LM7805 Voltage Regulator
+- Input and Output connector headers
+- Output filter capacitor for smooth voltage
+- Compact single-layer PCB
+- Designed using KiCad
+
+---
+
+## 🛠 Software Used
+
+- KiCad 9
+
+---
+
+## 🔧 Components Used
+
+| Component | Quantity |
+|-----------|----------|
+| LM7805 Voltage Regulator | 1 |
+| 100 µF Capacitor | 1 |
+| 2-Pin Input Connector | 1 |
+| 2-Pin Output Connector | 1 |
+
+---
+
+## 📂 Project Structure
+
+```
+02-7805-Power-Supply
+│
+├── README.md
+├── 7805_Power_Supply.kicad_sch
+├── 7805_Power_Supply.kicad_pcb
+├── Images
+│   ├── Schematic.png
+│   ├── PCB_Layout.png
+│   └── 3D_View.png
+└── Gerber
+```
+
+---
+
+## 📸 Project Images
+
+### Schematic
+
+(Add Schematic Screenshot)
+
+### PCB Layout
+
+(Add PCB Layout Screenshot)
+
+### 3D View
+
+(Add 3D PCB Screenshot)
+
+---
+
+## ⚙️ Working Principle
+
+1. An unregulated DC voltage is applied at the input connector.
+2. The LM7805 voltage regulator converts the input voltage into a regulated **5V DC output**.
+3. The capacitor filters voltage fluctuations and improves output stability.
+4. The regulated output can be used to power Arduino boards, sensors, and other embedded systems.
+
+---
+
+## 📊 Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Input Voltage | 7V – 12V DC |
+| Output Voltage | 5V DC |
+| Voltage Regulator | LM7805 |
+| Capacitor | 100 µF |
+| PCB Type | Single Layer |
+
+---
+
+## 🎯 Applications
+
+- Arduino Power Supply
+- Embedded Systems
+- IoT Projects
+- Sensor Modules
+- Microcontroller Circuits
+- Electronics Laboratory
+
+---
+
+## 📚 Skills Demonstrated
+
+- PCB Design using KiCad
+- Schematic Design
+- PCB Routing
+- Component Placement
+- Power Supply Circuit Design
+
+---
+
+## 🚀 Future Improvements
+
+- Add Reverse Polarity Protection
+- Add Power Indicator LED
+- Add Heat Sink Footprint
+- Add Fuse Protection
+- Add Input Filter Capacitor
+
+
+Interested in RF • PCB Design • Embedded Systems • MATLAB • LTspice
