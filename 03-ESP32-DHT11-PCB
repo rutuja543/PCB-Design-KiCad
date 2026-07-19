@@ -1,0 +1,125 @@
+# 🌡️ ESP32 DHT11 Temperature & Humidity Sensor PCB
+
+![KiCad](https://img.shields.io/badge/KiCad-9-blue)
+![ESP32](https://img.shields.io/badge/ESP32-Development-red)
+![PCB](https://img.shields.io/badge/PCB-Design-green)
+![IoT](https://img.shields.io/badge/IoT-Project-orange)
+
+## 📌 Project Overview
+
+This project demonstrates the design of a compact **ESP32-based Temperature and Humidity Monitoring PCB** using the **DHT11 sensor**. The PCB is designed in **KiCad** and provides an easy interface between the ESP32 development board and the DHT11 sensor for environmental monitoring applications.
+
+---
+
+## ✨ Features
+
+- ESP32 DevKit compatible
+- DHT11 Temperature & Humidity Sensor Interface
+- Compact PCB Layout
+- Single-layer PCB Design
+- Easy sensor connectivity
+- Designed using KiCad
+
+---
+
+## 🛠 Software Used
+
+- KiCad 9
+
+---
+
+## 🔧 Components Used
+
+| Component | Quantity |
+|-----------|----------|
+| ESP32 DevKit | 1 |
+| DHT11 Sensor | 1 |
+| 2-Pin Power Connector | 1 |
+| PCB Headers | As Required |
+
+---
+
+## 📂 Project Structure
+
+```
+03-ESP32-DHT11-PCB
+│
+├── README.md
+├── ESP32_DHT11.kicad_sch
+├── ESP32_DHT11.kicad_pcb
+├── Images
+│   ├── Schematic.png
+│   ├── PCB_Layout.png
+│   └── 3D_View.png
+└── Gerber
+```
+
+---
+
+## 📸 Project Images
+
+### Schematic
+
+(Add Schematic Screenshot)
+
+### PCB Layout
+
+(Add PCB Layout Screenshot)
+
+### 3D View
+
+(Add 3D PCB Screenshot if available)
+
+---
+
+## ⚙️ Working Principle
+
+1. The ESP32 provides power to the DHT11 sensor.
+2. The DHT11 measures ambient temperature and humidity.
+3. Sensor data is transmitted to the ESP32 through the digital data pin.
+4. The ESP32 processes the readings for display, logging, or IoT applications.
+
+---
+
+## 📊 Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Controller | ESP32 DevKit |
+| Sensor | DHT11 |
+| Supply Voltage | 3.3V / 5V |
+| PCB Type | Single Layer |
+| Design Software | KiCad 9 |
+
+---
+
+## 🎯 Applications
+
+- Weather Monitoring
+- Smart Home Systems
+- IoT Sensor Nodes
+- Environmental Monitoring
+- Agriculture Monitoring
+- Embedded Systems Learning
+
+---
+
+## 📚 Skills Demonstrated
+
+- PCB Design using KiCad
+- ESP32 Hardware Interface
+- Sensor Interfacing
+- Schematic Design
+- PCB Layout & Routing
+- Embedded Hardware Design
+
+---
+
+## 🚀 Future Improvements
+
+- Add OLED Display Interface
+- Support DHT22 Sensor
+- Add Wi-Fi Data Logging
+- Battery Powered Design
+- IoT Cloud Integration
+
