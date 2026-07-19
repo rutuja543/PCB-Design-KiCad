@@ -1,0 +1,113 @@
+# 💡 Arduino UNO LED Interface PCB
+
+![KiCad](https://img.shields.io/badge/KiCad-9-blue)
+![Arduino](https://img.shields.io/badge/Arduino-UNO-green)
+![PCB](https://img.shields.io/badge/PCB-Design-orange)
+
+## 📌 Project Overview
+
+This project demonstrates the design of a simple PCB for interfacing an **LED** with an **Arduino UNO** using **KiCad**.
+
+The PCB includes an LED connected through a current-limiting resistor to one of the Arduino digital pins. It is an ideal beginner project for learning schematic capture, PCB layout, routing, and footprint placement.
+
+---
+
+## ✨ Features
+
+- Arduino UNO compatible
+- LED output circuit
+- Current-limiting resistor
+- Compact PCB layout
+- Designed using KiCad
+- Beginner-friendly design
+
+---
+
+## 🛠️ Software Used
+
+- KiCad 9
+- Arduino UNO
+
+---
+
+## 🔧 Hardware Components
+
+| Component | Quantity |
+|-----------|----------|
+| Arduino UNO | 1 |
+| LED | 1 |
+| 1 kΩ Resistor | 1 |
+| Pin Header | 1 |
+
+---
+
+## 📂 Project Structure
+
+```
+01-Arduino-LED-PCB
+│
+├── README.md
+├── Arduino_LED.kicad_sch
+├── Arduino_LED.kicad_pcb
+├── Images
+│   ├── Schematic.png
+│   ├── PCB_Layout.png
+│   └── 3D_View.png
+└── Gerber
+```
+
+---
+
+## 📸 Project Images
+
+### Schematic
+
+(Add your schematic screenshot here)
+
+### PCB Layout
+
+(Add your PCB layout screenshot here)
+
+### 3D View
+
+(Add 3D PCB image if available)
+
+---
+
+## ⚙️ Working Principle
+
+1. Arduino UNO provides power to the circuit.
+2. A digital output pin drives the LED.
+3. The 1 kΩ resistor limits current to protect the LED.
+4. When the output pin is HIGH, the LED turns ON.
+5. When the output pin is LOW, the LED turns OFF.
+
+---
+
+## 🎯 Applications
+
+- Learning PCB Design
+- Arduino Practice
+- Embedded Systems Education
+- Digital Output Demonstration
+- Electronics Laboratory Experiments
+
+---
+
+## 📚 Skills Demonstrated
+
+- PCB Design using KiCad
+- Schematic Capture
+- Component Placement
+- PCB Routing
+- Arduino Hardware Design
+
+---
+
+## 🚀 Future Improvements
+
+- Add Push Button Input
+- Add Multiple LEDs
+- PWM Brightness Control
+- Status Indicator Module
+
